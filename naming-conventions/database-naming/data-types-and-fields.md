@@ -39,7 +39,7 @@ In this case, it is recommended to add an underscore ( \_ ) in front of the type
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>An example of data types used for system tracking</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>An example of using a field for multi-tenancy (contacts are scoped inside companies)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>An example of using a field for multi-tenancy (contacts are scoped inside companies)</p></figcaption></figure>
 
 > Airdev (a well known Bubble delivery vendor) usually uses Unicode icons (aka characters, aka emojis) like ⚙️ instead of using underscore. This is not a bad approach at all and it is way better than underscore in terms of visibility, however typing \_ is quicker than having to input such an icon. You can feel free to explore and use the method you prefer.
 

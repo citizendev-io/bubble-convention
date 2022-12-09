@@ -6,21 +6,21 @@
 
 ## Usage recommendations
 
-* [Layout](usage-recommendations/layout/README.md)
+* [Layout](usage/layout.md)
   * [Responsive layouts](usage-recommendations/layout/responsive-layouts.md)
-  * [Subpaging behaviors](usage-recommendations/layout/subpaging-behaviors.md)
-* [Styles](usage-recommendations/styles/README.md)
+  * [Single-page behaviors](usage-recommendations/layout/single-page-behaviors.md)
+* [Styles](usage/styling.md)
   * [Atomic styling & naming](usage-recommendations/styles/atomic-styling-and-naming.md)
   * [Style inheritence](usage-recommendations/styles/style-inheritence.md)
-* [Custom states](usage-recommendations/custom-states/README.md)
+* [Custom states](usage/states.md)
   * [Usage classification](usage-recommendations/custom-states/usage-classification.md)
   * [Placement of states](usage-recommendations/custom-states/placement-of-states.md)
-* [Comments](usage-recommendations/comments.md)
+* [Comments](usage/comments.md)
 
 ## Naming conventions
 
 * [Page naming](naming-conventions/page-naming.md)
-* [Element naming](naming-conventions/element-naming/README.md)
+* [Element naming](naming-conventions/element-naming.md)
   * [Groups](naming-conventions/element-naming/groups.md)
   * [Reusable elements](naming-conventions/element-naming/reusable-elements.md)
   * [Visual elements](naming-conventions/element-naming/visual-elements.md)
