@@ -1,2 +1,0 @@
-# Option set naming
-
