@@ -7,3 +7,4 @@ description: >-
 # References
 
 * nCubeSoftware Bubble coding standards: [https://ncubesoftware.com/bubble-io-coding-standards-for-ncubesoftware/](https://ncubesoftware.com/bubble-io-coding-standards-for-ncubesoftware/)
+* Bubble's official document: [https://manual.bubble.io/](https://manual.bubble.io/)

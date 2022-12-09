@@ -1,6 +1,6 @@
 # Option sets
 
-## Categorization of option sets
+## Classification of option sets
 
 Option sets are extremely useful and we want to have this special section to talk about how we usually harness their power. They can be used as and broken down into 3 types:
 

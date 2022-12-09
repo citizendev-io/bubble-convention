@@ -42,6 +42,6 @@ However, it would be a bit more difficult for new Bubblers to read, since some f
 
 ### Who owns this document?
 
-This is a product of CitizenDev, but it should also be owned by the community. This is totally free-to-use, copylefted, and maintained by the community (and also CitizenDev's team).
+This is a product of CitizenDev, but it should also be owned by the community. This is totally free-to-use, copylefted, and maintained by the community (and also CitizenDev team).
 
 If you want to contribute, please refer to [this section](../miscellaneous/contribution-guide.md).
