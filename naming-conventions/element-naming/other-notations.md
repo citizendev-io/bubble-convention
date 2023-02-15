@@ -33,3 +33,11 @@ Below is an example of 2 forms with identical elements but used for different pu
 | \[Onboard] Text Title    | \[Invite] Text Title    |
 | \[Onboard] Input Name    | \[Invite] Input Name    |
 | \[Onboard] Button Submit | \[Invite] Button Submit |
+
+## Notation of order
+
+Groups, data fields, option set fields, etc when related to ordering (e.g. steps in an onboarding process, indicated by an option set) should come with a number indicator (`no_`) before the name.
+
+Example: 1\_onboardingStep; 2\_onboardingStep
+
+The number should always come come to help with sorting.
