@@ -3,19 +3,7 @@
 * [Introduction](README.md)
   * [About Bubble Convention document](introduction/about-bubble-convention-document.md)
   * [About CitizenDev](introduction/about-citizendev.md)
-
-## Usage recommendations
-
-* [Layout](usage/layout.md)
-  * [Responsive layouts](usage-recommendations/layout/responsive-layouts.md)
-  * [Single-page behaviors](usage-recommendations/layout/single-page-behaviors.md)
-* [Styles](usage/styling.md)
-  * [Atomic styling & naming](usage-recommendations/styles/atomic-styling-and-naming.md)
-  * [Style inheritence](usage-recommendations/styles/style-inheritence.md)
-* [Custom states](usage/states.md)
-  * [Usage classification](usage-recommendations/custom-states/usage-classification.md)
-  * [Placement of states](usage-recommendations/custom-states/placement-of-states.md)
-* [Comments](usage/comments.md)
+* [Naming Cheat Sheet](naming-cheat-sheet.md)
 
 ## Naming conventions
 
@@ -32,6 +20,19 @@
   * [Data types & fields](naming-conventions/database-naming/data-types-and-fields.md)
   * [Option sets](naming-conventions/database-naming/option-sets.md)
   * [Privacy rules](naming-conventions/database-naming/privacy-rules.md)
+
+## Usage recommendations
+
+* [Layout](usage/layout.md)
+  * [Responsive layouts](usage-recommendations/layout/responsive-layouts.md)
+  * [Single-page behaviors](usage-recommendations/layout/single-page-behaviors.md)
+* [Styles](usage/styling.md)
+  * [Atomic styling & naming](usage-recommendations/styles/atomic-styling-and-naming.md)
+  * [Style inheritence](usage-recommendations/styles/style-inheritence.md)
+* [Custom states](usage/states.md)
+  * [Usage classification](usage-recommendations/custom-states/usage-classification.md)
+  * [Placement of states](usage-recommendations/custom-states/placement-of-states.md)
+* [Comments](usage/comments.md)
 
 ## Miscellaneous
 
