@@ -4,7 +4,7 @@ description: For quick reviews during development.
 
 # Naming Cheat Sheet
 
-The naming conventions pages below are lengthy, as they not only introduce the naming systems but also explain the thought process behind them. Thus, we want to condense everything here so you can review afterwards.
+The naming conventions pages below are lengthy, as they not only introduce the naming systems but also explain the thought process behind them. Thus, we want to condense everything here so you can review afterwards. If you happen to make a beautifully visualized and decorated 1-page cheat sheet of this, we are more than happy to attach it here.
 
 ## Page naming
 
@@ -29,12 +29,12 @@ Reusable elements should be named like pages, with type: **`[{Reusable type}] {r
 
 Common reusable types include:
 
-* Container
-* Drawer
-* Dialog
-* Subpage
-* Workflow
-* Component
+* Container: A big component that contains a lot of elements and logics inside, similar to an _organism_ in atomic design, mainly used for breaking the apps into smaller parts.
+* Drawer: Either a popup or floating group that displays data as a drawer, and is also a container.
+* Dialog: A popup that is also a container.
+* Subpage: For groups used in single-page behavior
+* Workflow: Invisible components that encapsulate workflows only.
+* Component: Small components, like a simple like button with logics that manage the number of likes.
 
 ### Visual elements
 
@@ -72,7 +72,7 @@ Workflow naming:&#x20;
   * Others: Purpose of the workflow, in **snake\_case**. For instance: _register\_user_ .
 * Custom workflows, triggers and API workflows: **snake\_case**.
 
-Color coding is preferable than foldering due to the ease of view. Workflows interacting with the same object (e.g. CRUD operations of User) should be in one color. Workflows with the same purpose (e.g. triggers used for analytics) should be in one folder.
+Color coding is preferable than foldering due to the ease of view. Workflows interacting with the same object (e.g. CRUD operations of User) should be in one color. Workflows with the same purpose (e.g. triggers used for analytics) should be in one folder. Workflow names with **\[Tag]** is also a good approach, as Bubble sorts the workflows by name.
 
 ## Database naming
 

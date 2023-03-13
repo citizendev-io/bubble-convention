@@ -8,11 +8,9 @@ description: What, when, why, who, how?
 
 > We haven't got a better name for this. Python's PEP8 sounds so cool, please help us with bringing about some cool names like that.
 
-**Creation date:** 2022-12-10
+**Published date:** 2023-02-18
 
 **Version:** 1.0
-
-**Creators:** Vu (CitizenDev), An (CitizenDev)&#x20;
 
 ### What is this?
 
@@ -28,7 +26,7 @@ Pro-coders should already understand how important conventions are, but for no-c
 
 This came from our own experience as we worked in our projects and had to standardize where states should be put, how to name database tables, etc so others could navigate with ease. We believe many others do this as well, but someone should stand up to build a standardized version to benefit not just proficient builders but also newcomers who are still learning.
 
-We developers have always been concerning about User Experience, reflected in our designs and functionalities. Nevertheless, we should not forget the vital part of Developer Experience, reflected in how will cope with things behind the scenes.
+We developers have always been concerned with User Experience, reflected in our designs and functionalities. Nevertheless, we should not forget the vital part of Developer Experience, reflected in how we cope with things behind the scenes.
 
 ### What if I don't want to follow standards?
 

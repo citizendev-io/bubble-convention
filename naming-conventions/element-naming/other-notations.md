@@ -40,4 +40,4 @@ Groups, data fields, option set fields, etc when related to ordering (e.g. steps
 
 Example: 1\_onboardingStep; 2\_onboardingStep
 
-The number should always come come to help with sorting.
+The number should always come before the name to help with sorting.
