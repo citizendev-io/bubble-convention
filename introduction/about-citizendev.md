@@ -8,4 +8,6 @@ CitizenDev is a no-code agency from Vietnam. We are a young, enthusiastic and re
 
 Starting as an agency, we are aiming to become a no-code enabler and professional body, whose missions will go much further than just software-development-as-a-service. This is our first attempt at letting the world know about our existence and moving towards being a professional body. We will have more and more community projects, so stay tuned!
 
-Still curious about us? Please take a look at our website at [citizendev.io](https://citizendev.io).
+Still curious about us? Please take a look at our website at [citizendev.io](https://citizendev.io).&#x20;
+
+> We haven't finished the new website so there are still Lorem Ipsum...

@@ -16,52 +16,59 @@ System/non-public pages: **snake\_case**
 
 ### Groups
 
-* Structural groups: Use **Header, Body, Footer, Nav, Section, Container** for the corresponding groups.
-* Regular groups: Use **`{Group type} {Group name}`** like usual. For example: _Group Testimonials, FloatingGroup Sidebar, Popup Deletion Confirmation._
+* Structural groups: Use **Header, Body, Footer, Section** for the corresponding groups.
+* Regular groups: Use **`{Group type} {Group name}`** like usual. For example: **`Group Testimonials`**_,_ **`FloatingGroup Sidebar`**_,_ **`Popup Deletion Confirmation`**_._
 * Sub groups: Use **`[{Parent's name}] {Group type} {Group name}`**. For instance:
-  * Parent group: _FloatingGroup Nav_
-  * Sub groups: _\[Nav] Group Menu_
-* RepeatingGroups: Use **`RepeatingGroup {Data type}` ** or **`RG {Data type}`**. For instance: _RG Comment_.
+  * Parent group: **`FloatingGroup Nav`**
+  * Sub groups: **`[Nav] Group Menu`**
+* RepeatingGroups: Use **`RepeatingGroup {Data type}`** or **`RG {Data type}`**. For instance: **`RG Comment`**.
 
 ### Reusable elements
 
-Reusable elements should be named like pages, with type: **`[{Reusable type}] {reusable element name}`**. For example: _\[Drawer] user-details_
+Reusable elements should be named like pages, with type: **`[{Reusable type}] {ReusableElementName}`**. For example: **`[Drawer] UserDetails`**
 
 Common reusable types include:
 
 * Container: A big component that contains a lot of elements and logics inside, similar to an _organism_ in atomic design, mainly used for breaking the apps into smaller parts.
-* Drawer: Either a popup or floating group that displays data as a drawer, and is also a container.
-* Dialog: A popup that is also a container.
-* Subpage: For groups used in single-page behavior
+  * Drawer: Either a popup or floating group that displays data as a drawer.
+  * Dialog: A popup with CTAs.
+  * Subpage: For groups used in single-page behavior.
 * Workflow: Invisible components that encapsulate workflows only.
 * Component: Small components, like a simple like button with logics that manage the number of likes.
 
 ### Visual elements
 
-* Non-dynamic elements: You should keep the element type first, and then its name, like usual: **`{Element type} {Name}`**. For instance: _Button Submit Feedback._
-* Dynamic elements: Use **`{Element type} {Data field}`** or **`{Element type} {Operations}`**. For instance: _Text username_ or _Text firstName + lastName._
+* Non-dynamic elements: You should keep the element type first, and then its name, like usual: **`{Element type} {Name}`**. For instance: **`Button Submit Feedback`**_._
+* Dynamic elements: Use **`{Element type} {Data field}`** or **`{Element type} {Operations}`**. For instance: **`Text username`** or **`Text firstName + lastName`**_._
 
 ### Input elements
 
-Input elements should reflect the data they are changing: ** `{Element type} {Data field}`** or **`{Element type} {Data type/Data field}`**. For instance: _Input username_ or _Input User/username._
+Input elements should reflect the data they are changing: **`{Element type} {Data field}`** or **`{Element type} {Data type/Data field}`**. For instance: **`Input username`** or **`Input User/username`**_._
 
 ### Custom states
 
-To differentiate from data field, use **snake\_case** for custom states. Other than that, custom states should be similar to a data field's name.
+To differentiate custom states from data fields and data types, use **snake\_case** for custom states.
 
 ### **Notation of state, data & clickable**
 
-* **`<S>` ** or ** `<State>`** for elements with custom states.
-* **`<D>` ** or ** `<Data>`** for elements with custom data sources (parent elements only, no need to mark child elements that inherit the data).
-* **`<C>` ** or ** `<Click>`** for non-input elements that are clickable (e.g. texts, groups).
+* **`<S>`** or **`<State>`** for elements with custom states.
+* **`<D>`** or **`<Data>`** for elements with custom data sources (parent elements only, no need to mark child elements that inherit the data).
+* **`<C>`** or **`<Click>`** for non-input elements that are clickable (e.g. texts, groups).
 
-Example: _\<S> Group Users_&#x20;
+Example: **`<S> Group Users`**&#x20;
 
 ### Notation of order
 
 Groups, data fields, option set fields, etc when related to ordering (e.g. steps in an onboarding process, indicated by an option set) should come with a number indicator (`no_`) before the name.
 
-Example: 1\_onboardingStep; 2\_onboardingStep
+Example: `1_onboardingStep`; `2_onboardingStep`
+
+## Style naming
+
+It is recommended to build a well-defined design system that you can reuse as a base before starting any project and modify the styles in that project with your custom variants.&#x20;
+
+* For non-text elements: **Type** - **Background - \[Optional] Size variant**
+* For text elements: **Type** - **Size** - **\[Optional] Color variant** - **\[Optional] Weight variant**
 
 ## Workflow naming & organization
 

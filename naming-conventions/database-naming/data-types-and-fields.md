@@ -2,7 +2,7 @@
 
 ## Data type
 
-**PascalCase** (words without spaces, capitalized) should be used for data types.&#x20;
+**PascalCase** should be used for data types.&#x20;
 
 Why? We saw that Bubble used a lot of natural languages in its builder. That is easy to understand, as the tool is aimed at citizen developers. The use of words without spaces helps differentiate the data types from native types and other phrases that Bubble uses.
 
@@ -12,11 +12,11 @@ Why not snake\_case like in regular databases? Bubble automatically capitalizes 
 
 As data types represent "things", their names should be nouns or compounds of nouns. They should be singular as well, as a data type represents the blueprint of 1 singular thing. Bubble also adds _s_'es to the end of the types when you are retrieving a list of them, so a type of _Cars_ would become _Carss_ and that's just weird, unless you try to make it badass.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>An example of using CamelCase for data types</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>An example of using CamelCase for data types</p></figcaption></figure>
 
 ## Data field
 
-**camelCase** (like PascalCase but the first character is lowercase instead) should be used for data types.
+**camelCase** should be used for data types.
 
 This is a common presentation used for variables in regular programming, so we thought a resemblance would be good for developers to work with. Moreover, it looks similar to data type's PascalCase, implying their relationship.
 
@@ -29,7 +29,7 @@ Data fields vary in forms and usage. The approaches for each type are as followe
 * Yes/no (aka boolean): We took this one from the best practice in pro-code. It is recommended to use auxiliary verbs to indicate the dichotomy of the attribute. For example, if a blog post can either be private or public, you can use either _isPrivate_ or _isPublic_ to indicate the privacy_._ This is not a perfect approach as you will see Bubble's builder refering to the field as _This Post's isPrivate_, which is not grammarly correct, yet it is easier to understand the purpose of the field.
 * Relationship (a field that refers to another data type): We have 2 recommended approaches for this type of field. You can either use nouns like usual, or you can use verbs to indicate the relationships between the 2 data types. For example, for a nested comments structure, you can refer to the parent comment as _parentComment_, or _repliesTo,_ as this comment replies to its parent comment.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>An example of naming data fields</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>An example of naming data fields</p></figcaption></figure>
 
 ## Other recommendations
 

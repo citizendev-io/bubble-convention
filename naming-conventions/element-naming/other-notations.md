@@ -28,16 +28,12 @@ An example of this is the case of having 2 identical groups of elements with clo
 
 Below is an example of 2 forms with identical elements but used for different purposes.
 
-| \[Onboard] Group Form    | \[Invite] Group Form    |
-| ------------------------ | ----------------------- |
-| \[Onboard] Text Title    | \[Invite] Text Title    |
-| \[Onboard] Input Name    | \[Invite] Input Name    |
-| \[Onboard] Button Submit | \[Invite] Button Submit |
+<table><thead><tr><th width="388">[Onboard] Group Form</th><th>[Invite] Group Form</th></tr></thead><tbody><tr><td>[Onboard] Text Title</td><td>[Invite] Text Title</td></tr><tr><td>[Onboard] Input Name</td><td>[Invite] Input Name</td></tr><tr><td>[Onboard] Button Submit</td><td>[Invite] Button Submit</td></tr></tbody></table>
 
 ## Notation of order
 
 Groups, data fields, option set fields, etc when related to ordering (e.g. steps in an onboarding process, indicated by an option set) should come with a number indicator (`no_`) before the name.
 
-Example: 1\_onboardingStep; 2\_onboardingStep
+Example: `1_onboardingStep`; `2_onboardingStep`
 
 The number should always come before the name to help with sorting.

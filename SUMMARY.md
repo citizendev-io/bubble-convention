@@ -15,24 +15,16 @@
   * [Input elements](naming-conventions/element-naming/input-elements.md)
   * [Custom states](naming-conventions/element-naming/custom-states.md)
   * [Other notations](naming-conventions/element-naming/other-notations.md)
+* [Style naming](naming-conventions/style-naming.md)
 * [Workflow naming & organization](naming-conventions/workflow-naming-and-organization.md)
 * [Database naming](naming-conventions/database-naming/README.md)
   * [Data types & fields](naming-conventions/database-naming/data-types-and-fields.md)
   * [Option sets](naming-conventions/database-naming/option-sets.md)
   * [Privacy rules](naming-conventions/database-naming/privacy-rules.md)
 
-## Usage recommendations
+## Usage recommendations (upcoming)
 
-* [Layout](usage/layout.md)
-  * [Responsive layouts](usage-recommendations/layout/responsive-layouts.md)
-  * [Single-page behaviors](usage-recommendations/layout/single-page-behaviors.md)
-* [Styles](usage/styling.md)
-  * [Atomic styling & naming](usage-recommendations/styles/atomic-styling-and-naming.md)
-  * [Style inheritence](usage-recommendations/styles/style-inheritence.md)
-* [Custom states](usage/states.md)
-  * [Usage classification](usage-recommendations/custom-states/usage-classification.md)
-  * [Placement of states](usage-recommendations/custom-states/placement-of-states.md)
-* [Comments](usage/comments.md)
+* [Upcoming](usage-recommendations-upcoming/upcoming.md)
 
 ## Miscellaneous
 

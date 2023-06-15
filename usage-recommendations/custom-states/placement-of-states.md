@@ -1,2 +1,0 @@
-# Placement of states
-
