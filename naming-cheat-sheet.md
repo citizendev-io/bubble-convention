@@ -39,11 +39,11 @@ Common reusable types include:
 ### Visual elements
 
 * Non-dynamic elements: You should keep the element type first, and then its name, like usual: **`{Element type} {Name}`**. For instance: **`Button Submit Feedback`**_._
-* Dynamic elements: Use **`{Element type} {Data field}`** or **`{Element type} {Operations}`**. For instance: **`Text username`** or **`Text firstName + lastName`**_._
+* Dynamic elements: Use **`{Element type} {Data field}`** or **`{Element type} {Operations}`**. For instance: **`Text userName`** or **`Text firstName + lastName`**_._
 
 ### Input elements
 
-Input elements should reflect the data they are changing: **`{Element type} {Data field}`** or **`{Element type} {Data type/Data field}`**. For instance: **`Input username`** or **`Input User/username`**_._
+Input elements should reflect the data they are changing: **`{Element type} {Data field}`** or **`{Element type} {Data type/Data field}`**. For instance: **`Input userName`** or **`Input User/userName`**_._
 
 ### Custom states
 
