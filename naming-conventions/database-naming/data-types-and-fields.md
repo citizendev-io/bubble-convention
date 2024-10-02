@@ -16,7 +16,7 @@ As data types represent "things", their names should be nouns or compounds of no
 
 ## Data field
 
-**camelCase** should be used for data types.
+**camelCase** should be used for data fields.
 
 This is a common presentation used for variables in regular programming, so we thought a resemblance would be good for developers to work with. Moreover, it looks similar to data type's PascalCase, implying their relationship.
 
